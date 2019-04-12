@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./__tests__/**/*.test.js"
+    "start": "node index",
+    "test": "jest ./__tests__/**/*.test.js",
+    "start-dev":"nodemon index.js"
   },
   "author": "",
   "license": "ISC",
